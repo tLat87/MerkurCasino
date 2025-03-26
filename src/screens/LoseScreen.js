@@ -25,7 +25,7 @@ const LoseScreen = ({navigation, route}) => {
       />
     </View>
 
-    <TouchableOpacity onPress={() => navigation.pop(2)} style={{backgroundColor: '#F9CF22', padding: 16, width: 220,alignSelf: 'center', alignItems: 'center', borderRadius: 99}}>
+    <TouchableOpacity onPress={() => navigation.pop(2)} style={{backgroundColor: '#F9CF22', padding: 16, width: 220,alignSelf: 'center', alignItems: 'center', borderRadius: 99, zIndex: 99}}>
       <Text style={{fontSize: 20,  color: '#000', fontWeight: 'bold'}}>
         Back
       </Text>

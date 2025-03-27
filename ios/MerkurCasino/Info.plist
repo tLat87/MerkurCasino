@@ -1,13 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
+<plist version="1.1">
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
-		<key>NSCameraUsageDescription</key>
-            <string>This app do not uses the camera to take a user avatar and photo to store in app private internal data set.</string>
-        <key>NSPhotoLibraryUsageDescription</key>
-            <string>This app uses the Photo Library to select a photo only.</string>
 	<key>CFBundleDisplayName</key>
 	<string>MerkurCasino</string>
 	<key>CFBundleExecutable</key>
@@ -50,6 +46,10 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<key>NSCameraUsageDescription</key>
+                <string>This app do not uses the camera to take a user avatar and photo to store in app private internal data set.</string>
+            <key>NSPhotoLibraryUsageDescription</key>
+                <string>This app uses the Photo Library to select a photo only.</string>
 	<false/>
 </dict>
 </plist>
